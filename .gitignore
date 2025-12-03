@@ -1,10 +1,14 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Ignorar ambiente virtual
+venv/
 
-# Virtual environments
-.venv
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar variáveis de ambiente
+.env
