@@ -1,33 +1,42 @@
-**Projeto: Data Science Prático (exercícios do livro "Data Science do Zero")**
+# Data Science Prático
 
-- **Foco:**: Repositório dedicado a exercícios práticos e scripts que acompanham o livro *Data Science do Zero*. O objetivo é manter implementações pequenas e didáticas para cada capítulo, organizadas na pasta `activities/`.
+Repositório dedicado a estudos e implementações práticas na área de **Data Science**, contendo códigos e exercícios que aplicam conceitos fundamentais de análise de dados, estatística e machine learning.
 
-**Conteúdo Atual**
-- **Pasta:**: `activities/` — contém scripts por atividade/capítulo.
-- **Exemplo:**: `activities/friendship_pairs.py` — script que demonstra análise simples de rede social e operações de dados: cálculo de número de amigos, amigos-de-amigos (FOAF), interesses comuns, agrupamento de salários por tempo de experiência, e contagem de palavras em tópicos de interesse.
+## Estrutura
 
-**Como usar**
-- **Requisito:**: Python 3.8+ recomendado.
-- **Executar um script:**: Rode diretamente o arquivo com Python. Exemplo:
-
-```bash
-python activities/friendship_pairs.py
+```
+activities/           # Scripts práticos de Data Science
+pyproject.toml       # Metadados do projeto
+README.md            # Este arquivo
 ```
 
-**Convenções e estrutura**
-- **Nome dos arquivos:**: usar `capitulo_##_<tema>.py` ou `atividade_<capitulo>_<tema>.py` (ex.: `capitulo_03_friendship_pairs.py`) para facilitar ordenação e associação ao capítulo.
-- **Localização:**: todo código de exercícios fica em `activities/`.
-- **Formato dos scripts:**: scripts pequenos, com função `if __name__ == "__main__":` para execução direta; preferir funções reutilizáveis para testes posteriores.
-- **Dependências:**: se algum exercício precisar de bibliotecas externas (pandas, numpy, etc.), adicione um `requirements.txt` ou atualize o `pyproject.toml`.
+## Conteúdo
 
-**Contribuindo**
-- **Adicionar nova atividade:**: crie um arquivo em `activities/` seguindo as convenções de nome e inclua um comentário no topo indicando o capítulo e o objetivo do exercício.
-- **Pull requests:**: Descreva o capítulo/tema e um breve resumo do que o script faz.
+- **`activities/`**: Coleção de scripts Python com implementações práticas de conceitos em Data Science, organizados por tema ou capítulo.
 
-**Próximos passos sugeridos**
-- Adicionar um `requirements.txt` com dependências comuns.
-- Padronizar nomes dos arquivos existentes (opcional).
-- Incluir testes simples para scripts críticos.
+## Requisitos
 
-**Contato / Notas**
-- Este repositório serve como um caderno de estudos práticos. Se quiser, posso:
+- Python 3.8 ou superior
+
+## Como executar
+
+Clone o repositório e acesse a pasta:
+
+```bash
+git clone <url-do-repositorio>
+cd data-science
+```
+
+Para executar um script específico:
+
+```bash
+python activities/<nome_do_script>.py
+```
+
+## Exemplos
+
+- `activities/friendship_pairs.py` – Análise de rede social: cálculos de amigos, amigos-de-amigos, interesses em comum e agrupamentos de dados.
+
+## Licença
+
+MIT 
